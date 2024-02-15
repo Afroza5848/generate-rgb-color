@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rgb color generate</title>
+    <!-- daisy ui and css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+    <section class="flex flex-col justify-center items-center min-h-screen gap-8">
+        <h1 class="lg:text-6xl text-2xl font-medium text-center">Change The Background Color By Clicking The Flowing Button</h1>
+        <div id="color-box" class="lg:w-2/5 w-3/4 lg:h-96 h-52  shadow-xl rounded-2xl">
+
+        </div>
+        <h1  class="lg:text-4xl text-xl font-bold text-center">Show Color Code : <span id="show-color-code"></span></h1>
+        <button onclick="changeColor()" class="btn bg-slate-800 text-2xl text-white shadow-gray-800">Change Color</button>
+    </section>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
